@@ -357,6 +357,56 @@ a {
   border-radius: 50%;
   background: transparent;
 }
+.form {
+ /* width: 600px;*/
+  /*outline: 1px solid tomato;*/
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.form h2 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.form h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+
+.form-field {
+  /* outline: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-field label {
+  margin-bottom: 5px;
+}
+
+.form-field input {
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid #2a2a2a;
+}
+.form-field-button {
+  margin-bottom: 40px;
+}
+/*.form-field: placeholder {
+  padding: 10px;
+}*/
+
 /* преимущества*/
 .benefits h2 {
   text-align: center;
@@ -737,9 +787,28 @@ footer {
 }
 .masters-socials-futer {
   margin-left: 0px;
+  margin-right: 93px;
 }
-
-
+.form-futer-icon {
+  display: flex;
+  justify-content:center ;
+}
+.form-futer-icon button {
+  width: 200px;
+  height: 50px;
+}
+.botton-futer {
+  /*padding: 10px 28px 10px 29px;*/
+  text-align: center;
+}
+.form-futer-icon input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 12px;
+}
 /* Наше портфолио */
 .portfolio {
   background-color: #ffffff;
