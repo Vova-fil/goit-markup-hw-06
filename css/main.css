@@ -403,6 +403,11 @@ line-height: 24px;
   padding: 10px 20px;
   border-radius: 3px;
   border: 1px solid #2a2a2a;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 40px;}
 }
 .form-field-button {
  /* position: absolute;
@@ -459,7 +464,7 @@ line-height: 24px;
 }
 
 .form-field:focus-within > input {
-  
+  outline: none;
   border: 1px solid rgba(33, 150, 243, 1);
 }
 .form-field input:focus {
@@ -522,7 +527,7 @@ display: block;
   border-color: transparent;
   background: rgba(33, 150, 243, 1);
   /*fill: #188ce8;*/
-  background-image: url("./images/icons.svg#icon-phone-black-18dp-");
+  background-image: url("./images/icons.svg#icon-icon-check1");
   background-size: contain;
   background-origin: border-box;
 }
@@ -540,9 +545,11 @@ display: block;
 .checkbox:checked + .icon-field {
   transform: scale(1.2);
   border-color: transparent;
+  border: 1px solid rgba(33, 33, 33, 0.2);
   background: rgba(33, 150, 243, 1);
   fill: #188ce8;
-  background-image: url('../img/full-check.svg');
+  resize: none;
+  background-image: url("./images/icons.svg#icon-icon-check1");
   background-size: contain;
   background-origin: border-box;
 }
@@ -552,8 +559,13 @@ display: block;
   padding: 10px 20px;
   border-radius: 3px;
   border: 1px solid #2a2a2a;
+}
+.form-field-comment:focus {
+  border: 1px solid rgba(33, 150, 243, 1);
+  outline: none;
+}
 /*.label {
-  /*margin-left: 30px;*/
+  margin-left: 30px;
   transition: transform 250ms linear;
 }*/
 .icon-field{
