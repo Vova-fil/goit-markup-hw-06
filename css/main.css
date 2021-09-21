@@ -436,7 +436,7 @@ line-height: 24px;
   padding-left: 40px;
   font: inherit;
   border-radius: 3px;
-  border: 1px solid rgba(33, 33, 33, 0.2)
+  border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .icon {
@@ -523,7 +523,7 @@ display: block;
   background: rgba(33, 150, 243, 1);
 ;
   /*fill: #188ce8;*/
-  background-image: url("./images/icons.svg#icon-icon-check1");
+  background-image: url("./images/icons.svg#icon-phone-black-18dp-");
   background-size: contain;
   background-origin: border-box;
 }
