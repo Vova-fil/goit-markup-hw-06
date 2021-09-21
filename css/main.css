@@ -542,6 +542,9 @@ display: block;
 
   transition: transform 250ms linear;
 }
+.icon-form-field {
+  
+}
 .checkbox:checked + .icon-field {
   transform: scale(1.2);
   border-color: transparent;
