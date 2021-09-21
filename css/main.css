@@ -521,7 +521,6 @@ display: block;
   transform: scale(1.2);
   border-color: transparent;
   background: rgba(33, 150, 243, 1);
-;
   /*fill: #188ce8;*/
   background-image: url("./images/icons.svg#icon-phone-black-18dp-");
   background-size: contain;
